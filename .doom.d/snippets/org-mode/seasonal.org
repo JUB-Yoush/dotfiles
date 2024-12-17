@@ -1,0 +1,29 @@
+
+# -*- mode:snippet -*-
+# name: seasonal-note
+# --
+
+#+title: Seasonal-Goals
+* From M Y to M+3 Y
+* This Seasons Theme:
+
+* Goals:
+
+** School/Work
+** GDYU
+** Health
+*** Mental
+*** Physical
+** Hobbies
+*** JP
+*** Dev
+**** Gamedev
+**** Not-Gamedev
+*** Drawing
+**** Drawabox
+**** Personal
+
+* Favorite Things:
+
+
+* Notes

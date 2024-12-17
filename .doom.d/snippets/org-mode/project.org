@@ -1,0 +1,26 @@
+# -*- mode:snippet -*-
+# name: project-template
+# --
+
+#+title:Project Name
+#+description: Description of the project
+
+* Project Goals:
+- 
+- 
+- 
+- 
+- 
+  
+* TODO  [0/4]
+ + [ ] task1
+ + [ ] task2
+ + [ ] task3
+
+* Resources
+-
+
+
+
+* Sub-Projects:
+- 

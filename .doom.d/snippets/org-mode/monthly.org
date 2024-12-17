@@ -1,0 +1,30 @@
+# -*- mode:snippet -*-
+# name: monthly-note
+# --
+* Month x 2024
+** How did last month go
+*** Fitness
+*** Food
+*** Sleep
+*** Productivity
+*** Focus
+*** Organization
+*** Reading
+*** Reflection
+*** Money
+*** Outreach
+*** Connection
+*** Service
+** Goals for this month
+*** Fitness
+*** Food
+*** Sleep
+*** Productivity
+*** Focus
+*** Organization
+*** Reading
+*** Reflection
+*** Money
+*** Outreach
+*** Connection
+*** Service

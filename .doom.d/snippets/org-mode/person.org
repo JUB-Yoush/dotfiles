@@ -1,0 +1,23 @@
+# -*- mode:snippet -*-
+# name: personal-relationship
+# --
+* People
+** Name
+*** Last Interaction:
+**** In Person
+**** Online
+*** Relationship:
+*** Important Dates:
+*** Contact Info:
+*** Current Quests:
+*** Current Profession:
+*** Shared Interests:
+*** Special Interests:
+*** Goals and Aspirations:
+*** Important People to them:
+**** Family
+**** Others
+*** Gifts:
+**** Given
+**** Ideas
+*** Idiosyncrasies:

@@ -1,0 +1,79 @@
+# -*- mode:snippet -*-
+# name: daily-note
+# --
+#+title: Daily Planner 
+#+date: `(format-time-string "%Y-%m-%d %a")`
+
+* Highlight from Yesterday: 
+-
+
+* One Thing I like about myself:
+-
+
+* Reflection of yesterday:
+** James Things
+- [ ] Did I meditate?
+- [ ] Did I remain mindful?
+- [ ] Did I exercise?
+- [ ] Did I eat well?
+- [ ] Did I work Deeply?
+- [ ] Did I give myself an oppertunity to relax?
+- [ ] Did I spend time with people I care about?
+- [ ] Would I be proud of how I lived if yesterday was my last day?
+
+** Me Things
+- [ ] Did some Coding?
+- [ ] Did some Drawing?
+- [ ] Did some Japanese?
+- [ ] Helped someone out?
+
+* Head full of the following:
+-
+
+* Key Metrics:
+- Hours of Deep Work:
+- Woke up at:
+- Went to bed at:
+
+* REMINDERS
+** FEED THE FISH
+** WASH YOUR FACE
+
+* Time Blocking
+#+caption:  time blocking
+|  time | task | rev1 |
+|-------+------+------|
+| 07:00 |      |      |
+| 07:30 |      |      |
+| 08:00 |      |      |
+| 08:30 |      |      |
+| 09:00 |      |      |
+| 09:30 |      |      |
+| 10:00 |      |      |
+| 10:30 |      |      |
+| 11:00 |      |      |
+| 11:30 |      |      |
+| 12:00 |      |      |
+| 12:30 |      |      |
+| 13:00 |      |      |
+| 13:30 |      |      |
+| 14:00 |      |      |
+| 14:30 |      |      |
+| 15:00 |      |      |
+| 15:30 |      |      |
+| 16:00 |      |      |
+| 16:30 |      |      |
+| 17:00 |      |      |
+| 17:30 |      |      |
+| 18:00 |      |      |
+| 18:30 |      |      |
+| 19:00 |      |      |
+| 19:30 |      |      |
+| 20:00 |      |      |
+| 20:30 |      |      |
+| 21:00 |      |      |
+| 21:30 |      |      |
+| 22:00 |      |      |
+| 22:30 |      |      |
+
+
