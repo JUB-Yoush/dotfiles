@@ -4,34 +4,34 @@
 
 * Weekly Planner
 #+date: `(format-time-string "%Y, week %U")`
-
 ** Wins Towards goals:
-*** Hobbies/Learning Projects
+*** Physical Health
 -
-*** Meditation/Mindfulness
+*** Productivity/Focus/Orginization
 -
-*** Sleep Hygine
+*** Reading/Reflection/Money
 -
-*** Helping Others
+*** Outreach/Connection/Service
 -
-
 ** Reflection
+*** Things I enjoyed this week
+-
 *** Biggest waste of time?
 -
-
 *** Did I meet my personal expectations this week?
 -
-
 *** Major Takeaways
 -
-
 *** Things to do more of this week
 -
-
 *** Things to do less of this week
 -
-
-** Goals this week:
-- 
-
-
+** Constant goals
+- Daily Game Development
+- Daily Leetcode
+- Daily Meditation
+- Daily Exersize
+- Daily Check-out time @ 9pm
+- Weekly cooking
+- Weekly Spending review
+** Week specific goals

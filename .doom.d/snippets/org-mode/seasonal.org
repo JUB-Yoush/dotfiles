@@ -1,29 +1,23 @@
 
 # -*- mode:snippet -*-
-# name: seasonal-note
+# name: seasonal-note25
 # --
 
 #+title: Seasonal-Goals
 * From M Y to M+3 Y
-* This Seasons Theme:
-
-* Goals:
-
-** School/Work
-** GDYU
-** Health
-*** Mental
-*** Physical
-** Hobbies
-*** JP
-*** Dev
-**** Gamedev
-**** Not-Gamedev
-*** Drawing
-**** Drawabox
-**** Personal
+* Annual Goals:
+- Daily Game Development
+- Daily Leetcode
+- Daily Meditation
+- Daily Exersize
+- Daily Check-out time @ 9pm
+- Weekly cooking
+- Weekly Spending review
+- Monthly Social Link
+- Monthly Book
+* Season Specific Goals:
 
 * Favorite Things:
 
 
-* Notes
+* Notes:

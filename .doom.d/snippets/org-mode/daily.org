@@ -3,32 +3,31 @@
 # --
 * Daily Note
 #+date: `(format-time-string "%Y-%m-%d %a")`
-
 ** Highlight from Yesterday:
 -
 ** Something I like about myself
 -
+** Something I'm grateful for
+-
 ** Reflection of yesterday:
-- [ ] Did I meditate?
-- [ ] Did I remain mindful?
-- [ ] Did I exercise?
-- [ ] Did I eat well?
-- [ ] Did I work Deeply?
-- [ ] Did I give myself an oppertunity to relax?
+Did I:
+- [ ] Meditate?
+- [ ] Remain mindful?
+- [ ] Exercise?
+- [ ] Eat well?
+- [ ] Work Deeply?
+- [ ] Give myself an oppertunity to relax?
 - [ ] Did I spend time with people I care about?
 - [ ] Would I be proud of how I lived if yesterday was my last day?
-- [ ] sleep hygine?
-- [ ] Did not seek out the validation of others?
-- [ ] Did some Coding?
-- [ ] Did some Drawing?
-- [ ] Did some Japanese?
+- [ ] Sleep well?
+- [ ] Did some Game Dev?
 - [ ] Helped someone out?
 ** Head full of the following:
 -
 ** Key Metrics:
-- Hours of Deep Work:
-- Woke up at:
-- Went to bed at:
+*** HOURS OF DEEP WORK:
+*** Woke up at:
+*** Went to bed at:
 ** Time Blocking
 #+caption:  time blocking
 |  time | task | rev1 |
@@ -63,5 +62,3 @@
 | 20:30 |      |      |
 | 21:00 |      |      |
 | 21:30 |      |      |
-| 22:00 |      |      |
-| 22:30 |      |      |
