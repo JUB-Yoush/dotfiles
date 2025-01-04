@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+# Find all nvim servers and blast 'em with our command line args
+# NOTE: FAILS if $XDG_RUNTIME_DIR is not set, figure out the default on your OS.
+# Some candidates: /tmp, /run/user/{userid}
+sockets=$(ls $XDG_RUNTIME_DIR/nvim*)
+
+for socket in $sockets; do
+  nvim --server $socket --remote-send "$@"
+done
