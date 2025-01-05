@@ -1,0 +1,7 @@
+modmap:
+  - name: Global
+    remap:
+      # ctrl caps swap
+      CapsLock: Ctrl_L
+      Ctrl_L: CapsLock
+

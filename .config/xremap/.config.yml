@@ -1,0 +1,4 @@
+keymap:
+  - { from: "Control_L", to: "Caps_Lock" }
+  - { from: "Caps_Lock", to: "Control_L" }
+
