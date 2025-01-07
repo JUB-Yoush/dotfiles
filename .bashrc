@@ -144,3 +144,10 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 alias config='/usr/bin/git --git-dir=/home/j/.cfg/ --work-tree=/home/j'
 
 export PATH="$PATH:$HOME/scripts"
+
+export PATH="$HOME/.local/bin:$PATH"
+
+export VISUAL=nvim
+export EDITOR="$VISUAL"
+
+export PATH="$HOME/.config/emacs/bin:$PATH"
