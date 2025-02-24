@@ -145,7 +145,7 @@
 ;;(after! dap-mode
 ;;  (setq dap-python-debugger 'debugpy))
 ;;  bullets for headers
-(use-package org-bullets :ensure t :config (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
+;;(use-package org-bullets :ensure t :config (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1))))
 
 ;; debugging in python
 (require 'dap-python)
