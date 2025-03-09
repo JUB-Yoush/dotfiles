@@ -151,3 +151,4 @@ export VISUAL=nvim
 export EDITOR="$VISUAL"
 
 export PATH="$HOME/.config/emacs/bin:$PATH"
+
