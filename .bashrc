@@ -143,7 +143,18 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 
 alias config='/usr/bin/git --git-dir=/home/j/.cfg/ --work-tree=/home/j'
 
-export PATH="$PATH:$HOME/scripts"
+export PATH="$PATH:$HOME/repos/vcpkg/"
+export PATH="$PATH:$HOME/repos/emsdk/"
+export PATH="$PATH:$HOME/scripts/"
+export PATH="$PATH:$HOME/zig/"
+
+# go
+export PATH=$PATH:/usr/local/go/bin
+export PATH="$PATH:$HOME/go/bin"
+
+# odin
+export PATH="$PATH:$HOME/odin"
+export PATH="$PATH:$HOME/ols"
 
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -152,3 +163,5 @@ export EDITOR="$VISUAL"
 
 export PATH="$HOME/.config/emacs/bin:$PATH"
 
+[ -f "/home/j/.ghcup/env" ] && . "/home/j/.ghcup/env" # ghcup-env
+export PATH=~/pebble-dev/pebble-sdk-4.6-rc2-linux64/bin:$PATH

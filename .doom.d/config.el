@@ -184,3 +184,5 @@
 
 ;; longer org agenda
 (setq org-agenda-span 21)
+
+;; heatmap related stuff
