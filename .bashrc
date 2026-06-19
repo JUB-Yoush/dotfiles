@@ -154,14 +154,19 @@ export PATH="$PATH:$HOME/go/bin"
 
 # odin
 export PATH="$PATH:$HOME/odin"
-export PATH="$PATH:$HOME/ols"
+##export PATH="$PATH:$HOME/ols"
 
 export PATH="$HOME/.local/bin:$PATH"
 
+#csharp
+export PATH="$PATH:/home/j/.dotnet/tools"
+
+# rider
+export PATH="$PATH:/home/j/Downloads/applications/JetBrainsRider/bin"
+
+#godot csharp
+export PATH="$PATH:/home/j/godotmono"
+export GODOT4="/home/j/godotmono"
+
 export VISUAL=nvim
 export EDITOR="$VISUAL"
-
-export PATH="$HOME/.config/emacs/bin:$PATH"
-
-[ -f "/home/j/.ghcup/env" ] && . "/home/j/.ghcup/env" # ghcup-env
-export PATH=~/pebble-dev/pebble-sdk-4.6-rc2-linux64/bin:$PATH
