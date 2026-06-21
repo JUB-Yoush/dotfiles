@@ -154,9 +154,19 @@ export PATH="$PATH:$HOME/go/bin"
 
 # odin
 export PATH="$PATH:$HOME/odin"
-export PATH="$PATH:$HOME/ols"
+##export PATH="$PATH:$HOME/ols"
 
 export PATH="$HOME/.local/bin:$PATH"
+
+#csharp
+export PATH="$PATH:/home/j/.dotnet/tools"
+
+# rider
+export PATH="$PATH:/home/j/Downloads/applications/JetBrainsRider/bin"
+
+#godot csharp
+export PATH="$PATH:/home/j/godotmono"
+export GODOT4="/home/j/godotmono"
 
 export VISUAL=nvim
 export EDITOR="$VISUAL"
