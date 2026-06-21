@@ -19,7 +19,7 @@ set $term ghostty
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /usr/share/backgrounds/sway/Sway_Wallpaper_Blue_1920x1080.png fill
+output * bg  /home/j/Pictures/wallpaper/azuma.png fill
 #
 # Example configuration:
 #
@@ -229,14 +229,18 @@ bindsym $mod+r mode "resize"
 #}
 
 # waybar
-exec_always waybar 
+bar {
+ swaybar_command waybar 
+}
 
-#xwayland disable
+xwayland enable
 
 for_window [app_id="imv"] floating enable 
 for_window [app_id="mpv"] floating enable 
-for_window [app_id="xfce4-appfinder"] floating enable 
-for_window [title="Panel Preferences"] floating enable 
+for_window [app_id="pavucontrol"] floating enable 
+for_window [app_id="pop-up"] floating enable 
+#for_window [app_id="xfce4-appfinder"] floating enable 
+#for_window [title="Panel Preferences"] floating enable 
 #for_window [title="Display"] floating enable 
 #for_window [title="Settings"] floating enable 
 #for_window [title="Keyboard"] floating enable 
@@ -245,10 +249,59 @@ for_window [title="Panel Preferences"] floating enable
 #for_window [title="Session and Startup"] floating enable 
 #for_window [title="About the Xfce Desktop Environment"] floating enable 
 
-# load xfce session
-exec_always /usr/bin/xfce4-session
-exec_always killall xfce4-panel
+# load xfce daemons
+#exec_always /usr/bin/xfce4-session
+#exec_always killall xfce4-panel
 
-default_border none
+exec_always {
+	systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+	dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+}
+
+#GTK font/theme/icon
+exec_always xfsettingsd
+
+#polkit auth agent
+exec /usr/libexec/polkit-mate-authentication-agent-1
+
+#power management + backlight + lid handling
+exec xfce4-power-manager
+
+#notifs
+exec /usr/lib/xfce4/notifyd/xfce4-notifyd
+
+#network manager tray applet
+exec nm-applet --indicator
+
+#auto mount
+exec thunar --daemon
+
+# lock + idle
+#lock when lid shut
+bindswitch --reload --locked lid:on exec swaylock -f -c 000000
+
+exec swayidle -w \
+ 	timeout 600 'swaylock -f -c 000000' \
+	timeout 900 'swaymsg "output * dpms off"' \
+	resume 'swaymsg "output * dpms off"'\
+	before-sleep 'swaylock -f -c 000000'
+
+#screen scailing
+output eDP-1 scale 1
+
+#remove names from windows, it's in waybar
+default_border pixel
+
+# my apps
+exec_always syncthing
+
+exec wlsunset -l 43.7 -L -79.8
+
+exec gammastep
+exec copyq
+exec --no-startup-id xremap .config/xremap/config.yml
+bindsym --release Print exec flameshot gui
+
+bindsym $mod+t exec thunar
 
 include /etc/sway/config.d/*
