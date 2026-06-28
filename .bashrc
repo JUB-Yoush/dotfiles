@@ -38,5 +38,8 @@ else
 fi
 unset color_prompt force_color_prompt
 
-#global dotnet packages
+#dotnet packages
 export PATH="${HOME}/.dotnet/tools:${PATH}"
+
+# go packages
+export PATH="$PATH:$(go env GOPATH)/bin"
