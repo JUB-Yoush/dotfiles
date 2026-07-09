@@ -14,12 +14,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
--- require("lspconfig").html.setup({
---   on_attach = on_attach,
---   capabilities = capabilities,
---   filetypes = { "html", "templ" },
--- })
-
 require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
@@ -41,7 +35,6 @@ require("lazy").setup({
     enabled = true, -- check for plugin updates periodically
     notify = false, -- notify on update
   }, -- automatically check for plugin updates
-
   performance = {
     rtp = {
       -- disable some rtp plugins
