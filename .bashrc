@@ -43,3 +43,9 @@ export PATH="${HOME}/.dotnet/tools:${PATH}"
 
 # go packages
 export PATH="$PATH:$(go env GOPATH)/bin"
+
+#godot variable
+export GODOT4="${HOME}/Projects/godot/godotmono/godotmono"
+
+#godotmono bin
+export PATH="${HOME}/Projects/godot/godotmono:${PATH}"
