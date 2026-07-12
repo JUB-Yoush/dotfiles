@@ -23,7 +23,6 @@ if [ -d ~/.bashrc.d ]; then
   done
 fi
 unset rc
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # Show git branch name
 force_color_prompt=yes
@@ -37,6 +36,9 @@ else
   PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
 fi
 unset color_prompt force_color_prompt
+
+# dotfile repo
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 #dotnet packages
 export PATH="${HOME}/.dotnet/tools:${PATH}"
